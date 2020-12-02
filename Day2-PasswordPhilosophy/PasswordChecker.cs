@@ -8,7 +8,15 @@ namespace Day2_PasswordPhilosophy
         {
             var input = ReadInput(path);
             var passwords = input.Select(x => InputParser.ParseInput(x)).ToList();
-            var validPasswords = passwords.Select(x => x.IsPasswordValid()).Count(x => x == true);
+            var validPasswords = passwords.Select(x => x.IsPasswordValid()).Count(x => x);
+            return validPasswords;
+        }
+        
+        public static int CheckPasswordsAlternative(string path)
+        {
+            var input = ReadInput(path);
+            var passwords = input.Select(x => InputParser.ParseInput(x)).ToList();
+            var validPasswords = passwords.Select(x => x.IsPasswordValidAlternative()).Count(x => x);
             return validPasswords;
         }
         

@@ -30,5 +30,20 @@ namespace Day2_PasswordPhilosophy
             }
             return false;
         }
+
+        public bool IsPasswordValidAlternative()
+        {
+            var first = Password[MinFrequency - 1] == Character ? 1 : 0;
+            var second = Password[MaxFrequency - 1] == Character ? 1 : 0;
+
+            var ocurrences = first + second;
+
+            if (ocurrences == 1)
+            {
+                return true;
+            }
+
+            return false;
+        }
     }
 }
