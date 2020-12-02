@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1-ReportRepair", "Day1-ReportRepair\Day1-ReportRepair.csproj", "{453359AA-73E7-4A81-B5D4-C6D2979059AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2-PasswordPhilosophy", "Day2-PasswordPhilosophy\Day2-PasswordPhilosophy.csproj", "{702E4174-C99B-4889-9030-3A81DD0F3AAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{92E55C7C-D070-45B0-9DBE-262DF76700A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{453359AA-73E7-4A81-B5D4-C6D2979059AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{453359AA-73E7-4A81-B5D4-C6D2979059AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{453359AA-73E7-4A81-B5D4-C6D2979059AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702E4174-C99B-4889-9030-3A81DD0F3AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702E4174-C99B-4889-9030-3A81DD0F3AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702E4174-C99B-4889-9030-3A81DD0F3AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702E4174-C99B-4889-9030-3A81DD0F3AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E55C7C-D070-45B0-9DBE-262DF76700A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E55C7C-D070-45B0-9DBE-262DF76700A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E55C7C-D070-45B0-9DBE-262DF76700A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E55C7C-D070-45B0-9DBE-262DF76700A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
