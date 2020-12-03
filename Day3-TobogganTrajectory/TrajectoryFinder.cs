@@ -30,7 +30,7 @@ namespace Day3_TobogganTrajectory
             return count;
         }
 
-        public static Int64 SlideMany(string[] input, Tuple<int, int>[] patterns)
+        public static long SlideMany(string[] input, Tuple<int, int>[] patterns)
         {
             List<int> result = new List<int>();
 
@@ -39,7 +39,9 @@ namespace Day3_TobogganTrajectory
                 result.Add(Slide(input, 0 , p.Item1, p.Item2));
             }
 
-            Int64 mult = result.Aggregate(1, (total, next) => total * next);
+            var newResult = result.Select(x => (long) x);
+
+            long mult = newResult.Aggregate((long) 1, (total, next) => total * next);
             return mult;
         }
     }
