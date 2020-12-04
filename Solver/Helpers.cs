@@ -7,7 +7,8 @@ namespace Common
     {
         public static string[] ReadInput(string path)
         {
-            string[] lines = System.IO.File.ReadAllLines( path);
+            var inputsDir = "/Users/user/Projects/personal/advent-of-code/Solver/Inputs/";
+            string[] lines = System.IO.File.ReadAllLines(inputsDir + path);
             return lines;
         }
     }
