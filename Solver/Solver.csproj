@@ -7,6 +7,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Day4-PassportProcessing\Day4-PassportProcessing.csproj" />
+      <ProjectReference Include="..\Day5-BinaryBoarding\Day5-BinaryBoarding.csproj" />
     </ItemGroup>
 
 </Project>

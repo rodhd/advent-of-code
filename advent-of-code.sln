@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solver", "Solver\Solver.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4-PassportProcessing", "Day4-PassportProcessing\Day4-PassportProcessing.csproj", "{71AA9008-382E-4912-AA94-539C521D629F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day5-BinaryBoarding", "Day5-BinaryBoarding\Day5-BinaryBoarding.csproj", "{FCE8BD0E-E411-4B3B-9DAA-5DE3D439CAAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{71AA9008-382E-4912-AA94-539C521D629F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71AA9008-382E-4912-AA94-539C521D629F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71AA9008-382E-4912-AA94-539C521D629F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCE8BD0E-E411-4B3B-9DAA-5DE3D439CAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE8BD0E-E411-4B3B-9DAA-5DE3D439CAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE8BD0E-E411-4B3B-9DAA-5DE3D439CAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE8BD0E-E411-4B3B-9DAA-5DE3D439CAAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
