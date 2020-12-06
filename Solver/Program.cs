@@ -1,7 +1,6 @@
 ﻿using System;
 using Common;
-using Day4_PassportProcessing;
-using Day5_BinaryBoarding;
+using Day6_CustomCustoms;
 
 namespace Solver
 {
@@ -9,12 +8,12 @@ namespace Solver
     {
         static void Main(string[] args)
         {
-            var input = Helpers.ReadInput("Day5.txt");
-            var answer1 = BoardingPassReader.GetMaxId(input);
-            Console.WriteLine($"Answer 1: Max Id is {answer1}");
-            
-            var answer2 = BoardingPassReader.GetFreeSeat(input);
-            Console.WriteLine($"Answer 2: Free Id is {answer2}");
+            var input = Helpers.ReadParagraphs("Day6.txt");
+            var answer_1 = CustomHelper.YesCounter(input);
+            Console.WriteLine($"Answer 1: {answer_1}");
+
+            var answer_2 = CustomHelper.AllYesCounter(input);
+            Console.WriteLine($"Answer 2: {answer_2}");
         }
     }
 }
