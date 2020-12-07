@@ -1,6 +1,7 @@
 ﻿using System;
 using Common;
 using Day6_CustomCustoms;
+using Day7_HandyHaversacks;
 
 namespace Solver
 {
@@ -8,12 +9,9 @@ namespace Solver
     {
         static void Main(string[] args)
         {
-            var input = Helpers.ReadParagraphs("Day6.txt");
-            var answer_1 = CustomHelper.YesCounter(input);
-            Console.WriteLine($"Answer 1: {answer_1}");
-
-            var answer_2 = CustomHelper.AllYesCounter(input);
-            Console.WriteLine($"Answer 2: {answer_2}");
+            var input = Helpers.ReadInput("Day7.txt");
+            var answer = HandbagRulesReader.TotalBagsInside(input);
+            Console.WriteLine($"Answer 2: {answer}");
         }
     }
 }
