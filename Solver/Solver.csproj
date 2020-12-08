@@ -10,6 +10,7 @@
       <ProjectReference Include="..\Day5-BinaryBoarding\Day5-BinaryBoarding.csproj" />
       <ProjectReference Include="..\Day6-CustomCustoms\Day6-CustomCustoms.csproj" />
       <ProjectReference Include="..\Day7-HandyHaversacks\Day7-HandyHaversacks.csproj" />
+      <ProjectReference Include="..\Day8-HandheldHalting\Day8-HandheldHalting.csproj" />
     </ItemGroup>
 
 </Project>
