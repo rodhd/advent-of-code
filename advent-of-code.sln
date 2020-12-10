@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day7-HandyHaversacks", "Day
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day8-HandheldHalting", "Day8-HandheldHalting\Day8-HandheldHalting.csproj", "{273F99AF-C22B-4A4D-8E05-0D97ABBE1479}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day9-EncodingError", "Day9-EncodingError\Day9-EncodingError.csproj", "{2670F892-3CD1-4692-B6E1-24DC1C75564F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day10-AdapterArray", "Day10-AdapterArray\Day10-AdapterArray.csproj", "{5766BAB0-78FE-4657-A62D-D3CC7270B023}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +64,13 @@ Global
 		{273F99AF-C22B-4A4D-8E05-0D97ABBE1479}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{273F99AF-C22B-4A4D-8E05-0D97ABBE1479}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{273F99AF-C22B-4A4D-8E05-0D97ABBE1479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2670F892-3CD1-4692-B6E1-24DC1C75564F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2670F892-3CD1-4692-B6E1-24DC1C75564F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2670F892-3CD1-4692-B6E1-24DC1C75564F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2670F892-3CD1-4692-B6E1-24DC1C75564F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5766BAB0-78FE-4657-A62D-D3CC7270B023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5766BAB0-78FE-4657-A62D-D3CC7270B023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5766BAB0-78FE-4657-A62D-D3CC7270B023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5766BAB0-78FE-4657-A62D-D3CC7270B023}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

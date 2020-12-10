@@ -6,11 +6,13 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Day10-AdapterArray\Day10-AdapterArray.csproj" />
       <ProjectReference Include="..\Day4-PassportProcessing\Day4-PassportProcessing.csproj" />
       <ProjectReference Include="..\Day5-BinaryBoarding\Day5-BinaryBoarding.csproj" />
       <ProjectReference Include="..\Day6-CustomCustoms\Day6-CustomCustoms.csproj" />
       <ProjectReference Include="..\Day7-HandyHaversacks\Day7-HandyHaversacks.csproj" />
       <ProjectReference Include="..\Day8-HandheldHalting\Day8-HandheldHalting.csproj" />
+      <ProjectReference Include="..\Day9-EncodingError\Day9-EncodingError.csproj" />
     </ItemGroup>
 
 </Project>
