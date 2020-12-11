@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day9-EncodingError", "Day9-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day10-AdapterArray", "Day10-AdapterArray\Day10-AdapterArray.csproj", "{5766BAB0-78FE-4657-A62D-D3CC7270B023}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day11-SeatingSystem", "Day11-SeatingSystem\Day11-SeatingSystem.csproj", "{CCFF123D-2DA5-43A5-A370-7FF8DE01BB8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{5766BAB0-78FE-4657-A62D-D3CC7270B023}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5766BAB0-78FE-4657-A62D-D3CC7270B023}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5766BAB0-78FE-4657-A62D-D3CC7270B023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFF123D-2DA5-43A5-A370-7FF8DE01BB8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFF123D-2DA5-43A5-A370-7FF8DE01BB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFF123D-2DA5-43A5-A370-7FF8DE01BB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFF123D-2DA5-43A5-A370-7FF8DE01BB8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
