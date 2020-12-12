@@ -2,6 +2,7 @@
 using Common;
 using Day10_AdapterArray;
 using Day11_SeatingSystem;
+using Day12_RainRisk;
 using Day6_CustomCustoms;
 using Day7_HandyHaversacks;
 using Day8_HandheldHalting;
@@ -13,8 +14,8 @@ namespace Solver
     {
         static void Main(string[] args)
         {
-            var input = Helpers.ReadInput("Day11.txt");
-            var tem = new SeatingSystem(input);
+            var input = Helpers.ReadInput("Day12.txt");
+            var tem = new RainRisk(input);
             //var answer = tem.FirstAnswer();
             //Console.WriteLine($"Answer 1: {answer}");
 
