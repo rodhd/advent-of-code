@@ -9,6 +9,7 @@
       <ProjectReference Include="..\Day10-AdapterArray\Day10-AdapterArray.csproj" />
       <ProjectReference Include="..\Day11-SeatingSystem\Day11-SeatingSystem.csproj" />
       <ProjectReference Include="..\Day12-RainRisk\Day12-RainRisk.csproj" />
+      <ProjectReference Include="..\Day13-ShuttleSearch\Day13-ShuttleSearch.csproj" />
       <ProjectReference Include="..\Day4-PassportProcessing\Day4-PassportProcessing.csproj" />
       <ProjectReference Include="..\Day5-BinaryBoarding\Day5-BinaryBoarding.csproj" />
       <ProjectReference Include="..\Day6-CustomCustoms\Day6-CustomCustoms.csproj" />
