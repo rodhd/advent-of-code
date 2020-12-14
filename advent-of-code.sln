@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day12-RainRisk", "Day12-Rai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day13-ShuttleSearch", "Day13-ShuttleSearch\Day13-ShuttleSearch.csproj", "{D5A40966-94F1-4024-BA47-DBFB31F63358}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day14-DockingData", "Day14-DockingData\Day14-DockingData.csproj", "{CCD8F0BA-8FD6-4B32-9824-561631DC71F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{D5A40966-94F1-4024-BA47-DBFB31F63358}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5A40966-94F1-4024-BA47-DBFB31F63358}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5A40966-94F1-4024-BA47-DBFB31F63358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD8F0BA-8FD6-4B32-9824-561631DC71F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD8F0BA-8FD6-4B32-9824-561631DC71F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD8F0BA-8FD6-4B32-9824-561631DC71F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD8F0BA-8FD6-4B32-9824-561631DC71F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

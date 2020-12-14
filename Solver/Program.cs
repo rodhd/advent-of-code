@@ -4,6 +4,7 @@ using Day10_AdapterArray;
 using Day11_SeatingSystem;
 using Day12_RainRisk;
 using Day12_ShuttleSearch;
+using Day14_DopckingData;
 using Day6_CustomCustoms;
 using Day7_HandyHaversacks;
 using Day8_HandheldHalting;
@@ -15,8 +16,8 @@ namespace Solver
     {
         static void Main(string[] args)
         {
-            var input = Helpers.ReadInput("Day13.txt");
-            var tem = new ShuttleSearch(input);
+            var input = Helpers.ReadInput("Day14.txt");
+            var tem = new DockingData(input);
             //var answer = tem.FirstAnswer();
             //Console.WriteLine($"Answer 1: {answer}");
 
