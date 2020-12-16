@@ -5,6 +5,8 @@ using Day11_SeatingSystem;
 using Day12_RainRisk;
 using Day12_ShuttleSearch;
 using Day14_DopckingData;
+using Day15_RambunctiousRecitation;
+using Day16_TicketTranslation;
 using Day6_CustomCustoms;
 using Day7_HandyHaversacks;
 using Day8_HandheldHalting;
@@ -16,8 +18,8 @@ namespace Solver
     {
         static void Main(string[] args)
         {
-            var input = Helpers.ReadInput("Day14.txt");
-            var tem = new DockingData(input);
+            //var input = Helpers.ReadInput("Day16.txt");
+            var tem = new SmartRecitation("9,19,1,6,0,5,4", 30000000);
             //var answer = tem.FirstAnswer();
             //Console.WriteLine($"Answer 1: {answer}");
 
