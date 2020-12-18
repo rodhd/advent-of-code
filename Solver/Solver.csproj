@@ -14,6 +14,7 @@
       <ProjectReference Include="..\Day15-RambunctiousRecitation\Day15-RambunctiousRecitation.csproj" />
       <ProjectReference Include="..\Day16-TicketTranslation\Day16-TicketTranslation.csproj" />
       <ProjectReference Include="..\Day17-ConwayCubes\Day17-ConwayCubes.csproj" />
+      <ProjectReference Include="..\Day18-OperationOrder\Day18-OperationOrder.csproj" />
       <ProjectReference Include="..\Day4-PassportProcessing\Day4-PassportProcessing.csproj" />
       <ProjectReference Include="..\Day5-BinaryBoarding\Day5-BinaryBoarding.csproj" />
       <ProjectReference Include="..\Day6-CustomCustoms\Day6-CustomCustoms.csproj" />
