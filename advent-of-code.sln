@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day17-ConwayCubes", "Day17-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day18-OperationOrder", "Day18-OperationOrder\Day18-OperationOrder.csproj", "{F54EE446-9867-4E3D-ACA6-4F874E01B575}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day19-MonsterMessages", "Day19-MonsterMessages\Day19-MonsterMessages.csproj", "{7D0C3606-4000-4D8C-ACEA-A6F25DA6401F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,5 +122,9 @@ Global
 		{F54EE446-9867-4E3D-ACA6-4F874E01B575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F54EE446-9867-4E3D-ACA6-4F874E01B575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F54EE446-9867-4E3D-ACA6-4F874E01B575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0C3606-4000-4D8C-ACEA-A6F25DA6401F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0C3606-4000-4D8C-ACEA-A6F25DA6401F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0C3606-4000-4D8C-ACEA-A6F25DA6401F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0C3606-4000-4D8C-ACEA-A6F25DA6401F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

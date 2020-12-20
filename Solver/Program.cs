@@ -9,6 +9,7 @@ using Day15_RambunctiousRecitation;
 using Day16_TicketTranslation;
 using Day17_ConwayCubes;
 using Day18_OperationOrder;
+using Day19_MonsterMessages;
 using Day6_CustomCustoms;
 using Day7_HandyHaversacks;
 using Day8_HandheldHalting;
@@ -20,8 +21,8 @@ namespace Solver
     {
         static void Main(string[] args)
         {
-            var input = Helpers.ReadInput("Day18.txt");
-            var tem = new OperationOrder(input);
+            var input = Helpers.ReadInput("Day19.txt");
+            var tem = new MMStack(input);
             //tem.FirstAnswer();
             //Console.WriteLine($"Answer 1: {answer}");
 
